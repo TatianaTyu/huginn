@@ -4,42 +4,42 @@
 
 ## Что такое Huginn?
 
-Huginn is a system for building agents that perform automated tasks for you online.  They can read the web, watch for events, and take actions on your behalf.  Huginn's Agents create and consume events, propagating them along a directed graph.  Think of it as a hackable Yahoo! Pipes plus IFTTT on your own server.  You always know who has your data.  You do.
+Huginn - это система для создания агентов, которые выполняют автоматизированные задачи для вас онлайн. Они могут читать в Интернете, следить за событиями и принимать меры от вашего имени. Агенты Хугинна создают и потребляют события, распространяя их вдоль ориентированного графа. Думайте об этом как о взломанном Yahoo! Трубы плюс IFTTT на вашем собственном сервере. Вы всегда знаете, у кого есть ваши данные. Ты сделаешь.
 
 ![the origin of the name](https://raw.githubusercontent.com/cantino/huginn/master/doc/imgs/the-name.png)
 
-#### Here are some of the things that you can do with Huginn:
+#### Вот несколько вещей, которые вы можете сделать с Хугинном:
 
-- Track the weather and get an email when it's going to rain (or snow) tomorrow ("Don't forget your umbrella!")
-- List terms that you care about and receive emails when their occurrence on Twitter changes.  (For example, want to know when something interesting has happened in the world of Machine Learning?  Huginn will watch the term "machine learning" on Twitter and tell you when there is a spike in discussion.)
-- Watch for air travel or shopping deals
-- Follow your project names on Twitter and get updates when people mention them
-- Scrape websites and receive emails when they change
-- Connect to Adioso, HipChat, Basecamp, Growl, FTP, IMAP, Jabber, JIRA, MQTT, nextbus, Pushbullet, Pushover, RSS, Bash, Slack, StubHub, translation APIs, Twilio, Twitter, Wunderground, and Weibo, to name a few.
-- Send digest emails with things that you care about at specific times during the day
-- Track counts of high frequency events and send an SMS within moments when they spike, such as the term "san francisco emergency"
-- Send and receive WebHooks
-- Run custom JavaScript or CoffeeScript functions
-- Track your location over time
-- Create Amazon Mechanical Turk workflows as the inputs, or outputs, of agents (the Amazon Turk Agent is called the "HumanTaskAgent"). For example: "Once a day, ask 5 people for a funny cat photo; send the results to 5 more people to be rated; send the top-rated photo to 5 people for a funny caption; send to 5 final people to rate for funniest caption; finally, post the best captioned photo on my blog."
+- Отслеживайте погоду и получайте электронные письма, когда завтра будет дождь (или снег) («Не забывайте свой зонтик!»)
+- Перечислите термины, которые вас интересуют, и получайте электронные письма, когда их появление в Twitter меняется. (Например, хотите знать, когда что-то интересное произошло в мире машинного обучения? Хьюгинн будет смотреть термин «машинное обучение» в Твиттере и сообщать вам, когда в дискуссии будет всплеск.)
+- Следите за авиаперелетами или покупками
+- Следите за названиями своих проектов в Твиттере и получайте обновления, когда люди их упоминают
+- Очистите веб-сайты и получайте электронные письма, когда они меняются
+- Подключитесь к Adioso, HipChat, Basecamp, Growl, FTP, IMAP, Jabber, JIRA, MQTT, nextbus, Pushbullet, Pushover, RSS, Bash, Slack, StubHub, API-интерфейсам для перевода, Twilio, Twitter, Wunderground и Weibo, чтобы назвать несколько ,
+- Отправляйте дайджесты по электронной почте с вещами, которые вас интересуют в определенное время в течение дня
+- Отслеживайте количество высокочастотных событий и отправляйте SMS в моменты их всплеска, такие как термин «чрезвычайная ситуация в Сан-Франциско»
+- Отправляйте и получайте WebHooks
+- Запустите пользовательские функции JavaScript или CoffeeScript
+- Отслеживайте свое местоположение с течением времени
+- Создайте рабочие процессы Amazon Mechanical Turk в качестве входных или выходных данных агентов (агент Amazon Turk называется HumanTaskAgent). Например: «Один раз в день попросите 5 человек сделать забавную фотографию кота; отправьте результаты еще 5 людям для оценки; отправьте фотографию с самым высоким рейтингом 5 людям для забавного заголовка; отправьте 5 финальным людям, чтобы оценить самая смешная подпись; наконец, разместите самую лучшую фотографию в моем блоге. "
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cantino/huginn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Join us in our [Gitter room](https://gitter.im/cantino/huginn) to discuss the project and follow [@tectonic](https://twitter.com/tectonic) for updates as Huginn evolves.
+Присоединяйтесь к нам в нашей [комнате](https://gitter.im/cantino/huginn) [Gitter,](https://twitter.com/tectonic) чтобы обсудить проект и [следите](https://twitter.com/tectonic) за обновлениями [@tectonic](https://twitter.com/tectonic) по мере развития [Хугинна](https://twitter.com/tectonic) .
 
-### Join us!
+### Присоединяйтесь к нам!
 
-Want to help with Huginn?  All contributions are encouraged!  You could make UI improvements, [add new Agents](https://github.com/cantino/huginn/wiki/Creating-a-new-agent), write [documentation and tutorials](https://github.com/cantino/huginn/wiki), or try tackling [issues tagged with #help-wanted](https://github.com/cantino/huginn/issues?direction=desc&labels=help-wanted&page=1&sort=created&state=open).  Please fork, add specs, and send pull requests!
+Хотите помочь с Хугинном? Все материалы приветствуются! Вы можете улучшить пользовательский интерфейс, [добавить новых агентов](https://github.com/cantino/huginn/wiki/Creating-a-new-agent) , написать [документацию и учебные пособия](https://github.com/cantino/huginn/wiki) или попробовать [решить проблемы, помеченные # help-wanted](https://github.com/cantino/huginn/issues?direction=desc&labels=help-wanted&page=1&sort=created&state=open) . Пожалуйста, ответьте, добавьте спецификации и отправьте запросы на включение!
 
-Really want a fix or feature? Want to solve some community issues and earn some extra coffee money? Take a look at the [current bounties on Bountysource](https://www.bountysource.com/trackers/282580-huginn).
+Действительно хотите исправить или функцию? Хотите решить некоторые проблемы сообщества и заработать дополнительные деньги на кофе? Взгляните на [текущие награды на Bountysource](https://www.bountysource.com/trackers/282580-huginn) .
 
-Have an awesome idea but not feeling quite up to contributing yet? Head over to our [Official 'suggest an agent' thread ](https://github.com/cantino/huginn/issues/353) and tell us!
+У вас есть отличная идея, но вы еще не готовы внести свой вклад? Перейдите к нашей [официальной ветке 'предложить агента'](https://github.com/cantino/huginn/issues/353) и сообщите нам!
 
-## Examples
+## Примеры
 
-Please checkout the [Huginn Introductory Screencast](http://vimeo.com/61976251)!
+Пожалуйста, ознакомьтесь с [вводной заставкой Хугинна](http://vimeo.com/61976251) !
 
-And now, some example screenshots.  Below them are instructions to get you started.
+А теперь несколько примеров скриншотов. Ниже приведены инструкции по началу работы.
 
 ![Example list of agents](https://raw.githubusercontent.com/cantino/huginn/master/doc/imgs/your-agents.png)
 
@@ -51,72 +51,70 @@ And now, some example screenshots.  Below them are instructions to get you start
 
 ![Making a new agent](https://raw.githubusercontent.com/cantino/huginn/master/doc/imgs/new-agent.png)
 
-## Getting Started
+## Начиная
 
-### Docker
+### докер
 
-The quickest and easiest way to check out Huginn is to use the official Docker image. Have a look at the [documentation](https://github.com/cantino/huginn/blob/master/doc/docker/install.md).
+Самый быстрый и простой способ проверить Huginn - это использовать официальное изображение Docker. Посмотрите на [документацию](https://github.com/cantino/huginn/blob/master/doc/docker/install.md) .
 
-### Local Installation
+### Локальная установка
 
-If you just want to play around, you can simply fork this repository, then perform the following steps:
+Если вы просто хотите поиграть, вы можете просто разветвить этот репозиторий, а затем выполнить следующие шаги:
 
-- Run `git remote add upstream https://github.com/cantino/huginn.git` to add the main repository as a remote for your fork.
-- Copy `.env.example` to `.env` (`cp .env.example .env`) and edit `.env`, at least updating the `APP_SECRET_TOKEN` variable.
-- Run `bundle` to install dependencies
-- Run `bundle exec rake db:create`, `bundle exec rake db:migrate`, and then `bundle exec rake db:seed` to create a development MySQL database with some example Agents.
-- Run `bundle exec foreman start`, visit [http://localhost:3000/](http://localhost:3000/), and login with the username of `admin` and the password of `password`.
-- Setup some Agents!
-- Read the [wiki](https://github.com/cantino/huginn/wiki) for usage examples and to get started making new Agents.
-- Periodically run `git fetch upstream` and then `git checkout master && git merge upstream/master` to merge in the newest version of Huginn.
+- Запустите `git remote add upstream https://github.com/cantino/huginn.git` чтобы добавить основной репозиторий в качестве удаленного для вашего форка.
+- Скопируйте `.env.example` в `.env` ( `cp .env.example .env` ) и отредактируйте `.env` , хотя бы обновив переменную `APP_SECRET_TOKEN` .
+- Запустите `bundle` для установки зависимостей
+- Запустите `bundle exec rake db:create` , `bundle exec rake db:migrate` , а затем `bundle exec rake db:seed` для создания базы данных MySQL для разработки с некоторыми примерами агентов.
+- Запустите `bundle exec foreman start` , зайдите на [http: // localhost: 3000 /](http://localhost:3000/) и войдите в систему с именем пользователя `admin` и паролем `password` .
+- Настройте несколько агентов!
+- Прочитайте [вики,](https://github.com/cantino/huginn/wiki) чтобы ознакомиться с примерами использования и начать создавать новых агентов.
+- Периодически запускайте `git fetch upstream` и затем `git checkout master && git merge upstream/master` для слияния с новейшей версией Huginn.
 
-Note: By default, emails are intercepted in the `development` Rails environment, which is what you just setup.  You can view
-them at [http://localhost:3000/letter_opener](http://localhost:3000/letter_opener). If you'd like to send real emails via SMTP when playing
-with Huginn locally, set `SEND_EMAIL_IN_DEVELOPMENT` to `true` in your `.env` file.
+Примечание. По умолчанию электронные письма перехватываются в среде `development` Rails, которую вы только что настроили. Вы можете просмотреть их по адресу [http: // localhost: 3000 / letter_opener](http://localhost:3000/letter_opener) . Если вы хотите отправлять реальные электронные письма через SMTP при локальной игре с Huginn, установите для `SEND_EMAIL_IN_DEVELOPMENT` значение `true` в вашем файле `.env` .
 
-If you need more detailed instructions, see the [Novice setup guide](https://github.com/cantino/huginn/wiki/Novice-setup-guide).
+Если вам нужны более подробные инструкции, см. [Руководство по настройке для начинающих](https://github.com/cantino/huginn/wiki/Novice-setup-guide) .
 
-### Develop
+### развивать
 
-All agents have specs! And there's also acceptance tests that simulate running Huginn in a headless browser.
+Все агенты имеют спецификации! И есть также приемочные тесты, которые имитируют запуск Huginn в браузере без головы.
 
-- Install PhantomJS 2.1.1 or greater:
-    - Using [Node Package Manager](https://www.npmjs.com/): `npm install phantomjs`
-    - Using [Homebrew](http://brew.sh/) on OSX `brew install phantomjs`
-- Run all specs with `bundle exec rspec`
-- Run a specific spec with `bundle exec rspec path/to/specific/test_spec.rb`.
-- Read more about rspec for rails [here](https://github.com/rspec/rspec-rails).
+- Установите PhantomJS 2.1.1 или выше: 
+    -  Использование [Node Package Manager](https://www.npmjs.com/) : `npm install phantomjs` 
+    -  Использование [Homebrew](http://brew.sh/) на OSX `brew install phantomjs` 
+- Запустите все спецификации с помощью `bundle exec rspec`
+- Запустите конкретную спецификацию с помощью `bundle exec rspec path/to/specific/test_spec.rb` .
+- Узнайте больше о rspec для рельсов [здесь](https://github.com/rspec/rspec-rails) .
 
-## Deployment
+## развертывание
 
 ### Heroku
 
-Try Huginn on Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.png) (Takes a few minutes to setup. Read the ](https://heroku.com/deploy)[documentation](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md) while you are waiting and be sure to click 'View it' after launch!)
+Попробуйте Хугинн на Heroku: [![развертывание](https://www.herokucdn.com/deploy/button.png) (Установка занимает несколько минут. Прочитайте](https://heroku.com/deploy) [документацию,](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md) пока вы ждете, и обязательно нажмите «Просмотр» после запуска!)
 
-Huginn works on the free version of Heroku [with significant limitations](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md). For non-experimental use, we strongly recommend Heroku's cheapest paid plan or our Docker container.
+Хугинн работает над бесплатной версией Heroku [со значительными ограничениями](https://github.com/cantino/huginn/blob/master/doc/heroku/install.md) . Для не экспериментального использования мы настоятельно рекомендуем самый дешевый платный тариф Heroku или наш контейнер Docker.
 
-Please see [the Huginn Wiki](https://github.com/cantino/huginn/wiki#deploying-huginn) for detailed deployment strategies for different providers.
+Пожалуйста, смотрите [Huginn Wiki](https://github.com/cantino/huginn/wiki#deploying-huginn) для подробных стратегий развертывания для различных провайдеров.
 
-### Manual installation on any server
+### Ручная установка на любой сервер
 
-Have a look at the [installation guide](https://github.com/cantino/huginn/blob/master/doc/manual/README.md).
+Посмотрите на [руководство](https://github.com/cantino/huginn/blob/master/doc/manual/README.md) по [установке](https://github.com/cantino/huginn/blob/master/doc/manual/README.md) .
 
-### Optional Setup
+### Опциональная настройка
 
-#### Setup for private development
+#### Настройка для частной разработки
 
-See [private development instructions](https://github.com/cantino/huginn/wiki/Private-development-instructions) on the wiki.
+Смотрите [частные инструкции](https://github.com/cantino/huginn/wiki/Private-development-instructions) по [разработке](https://github.com/cantino/huginn/wiki/Private-development-instructions) в вики.
 
-#### Enable the WeatherAgent
+#### Включить WeatherAgent
 
-In order to use the WeatherAgent you need an [API key with Wunderground](http://www.wunderground.com/weather/api/). Signup for one and then change the value of `api_key: your-key` in your seeded WeatherAgent.
+Чтобы использовать WeatherAgent, вам нужен [ключ API с Wunderground](http://www.wunderground.com/weather/api/) . Зарегистрируйтесь на него, а затем измените значение `api_key: your-key` в `api_key: your-key` .
 
-#### Disable SSL
+#### Отключить SSL
 
-We assume your deployment will run over SSL. This is a very good idea! However, if you wish to turn this off, you'll probably need to edit `config/initializers/devise.rb` and modify the line containing `config.rememberable_options = { :secure => true }`.  You will also need to edit `config/environments/production.rb` and modify the value of `config.force_ssl`.
+Мы предполагаем, что ваше развертывание будет работать через SSL. Это очень хорошая идея! Однако, если вы хотите отключить это, вам, вероятно, потребуется отредактировать `config/initializers/devise.rb` и изменить строку, содержащую `config.rememberable_options = { :secure => true }` . Вам также необходимо отредактировать `config/environments/production.rb` и изменить значение `config.force_ssl` .
 
-## License
+## Лицензия
 
-Huginn is provided under the MIT License.
+Хугинн предоставляется по лицензии MIT.
 
 [![Build Status](https://travis-ci.org/cantino/huginn.svg)](https://travis-ci.org/cantino/huginn) [![Coverage Status](https://coveralls.io/repos/cantino/huginn/badge.svg)](https://coveralls.io/r/cantino/huginn) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cantino/huginn/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Dependency Status](https://gemnasium.com/cantino/huginn.svg)](https://gemnasium.com/cantino/huginn) [![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=282580)](https://www.bountysource.com/trackers/282580-huginn?utm_source=282580&utm_medium=shield&utm_campaign=TRACKER_BADGE)
